@@ -1,0 +1,22 @@
+How to use git
+---------------
+Prerequisite: 
+You already have git installed
+You already have git bash installed
+
+1. In Chrome, open git hub website: https://github.com/dashboard
+2. On the left side, Click on "New" button. We are trying to create a repo (repositories) (just need to do once to create a new repo)
+3. In the Repository name, give a name. No spaces. Can use underscores. 
+4. Find clone tab. It starts with https://github.com/ and ends with .git. Copy the URL
+5.1 Create a directory (folder) for your project. Say Desktop. Give the directory a name, say Week1_Code.
+5.2 Go to the directory Week1_Code.
+6. Right click and Open Git Bash Here
+7. Run the command: git clone <URL>. For example: git clone https://github.com/Coderaj240/Week1_Code.git (need to do only once for each repo)
+8. We will continue working on the Git Bash. cd to cloned directory. For example: cd Week1_Code
+9. Anything you change in this directory, it will show up as changes. For testing, create a test file called test.txt and add some text in it, like "Hello"
+10. Use the command to see changes. git status
+11. You will see the added file. Now, you need to add the file to repo/GitHub. Run the command: git add <file name>. For example. git add test.txt
+11. To commit (save the changed in repo), use the command: git commit -m "Added a file with some text"
+12. Push the commit/changes. git push
+13. Go to the URL (GitHub), you will see the change. 
+14. If you need to change anything, repeat from step 8 to 12.
